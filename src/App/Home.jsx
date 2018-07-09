@@ -6,7 +6,11 @@ const Container = styled.div`
 `;
 
 const Home = () => (
-	<Container><h1>Home</h1></Container>
+  <Container>
+    <h1>
+      Home
+    </h1>
+  </Container>
 );
 
 export default Home;

@@ -1,12 +1,12 @@
-import App, {Document} from './App';
-import {StaticRouter} from 'react-router-dom';
 import React from 'react';
-import {renderToString} from 'react-dom/server';
+import { StaticRouter } from 'react-router-dom';
+import { renderToString } from 'react-dom/server';
 import Koa from 'koa';
 import serve from 'koa-static';
 import helmet from 'koa-helmet';
 import Router from 'koa-router';
-import {ServerStyleSheet} from 'styled-components';
+import { ServerStyleSheet } from 'styled-components';
+import App, { Document } from './App';
 
 const assets = require(process.env.RAZZLE_ASSETS_MANIFEST);
 
